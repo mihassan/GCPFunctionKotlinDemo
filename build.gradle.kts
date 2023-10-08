@@ -29,7 +29,7 @@ task<JavaExec>("runFunction") {
   classpath(invoker)
   inputs.files(configurations.runtimeClasspath, sourceSets["main"].output)
   args(
-    "--target", project.findProperty("runFunction.target") ?: "HelloWorld",
+    "--target", project.findProperty("runFunction.target") ?: "Quote",
     "--port", project.findProperty("runFunction.port") ?: 8080
   )
   doFirst {
