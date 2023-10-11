@@ -15,7 +15,10 @@
 
 node_modules
 
-### Gradle ###
+# General
+.DS_Store
+
+# Gradle
 .gradle
 **/build/
 !src/**/build/
