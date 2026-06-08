@@ -1,5 +1,7 @@
 # Google Cloud Function Demo using Kotlin
 
+**Status: [Demo]**
+
 This is a demo project to show how to use Kotlin to write a Google Cloud Function.
 
 It covers the following:
